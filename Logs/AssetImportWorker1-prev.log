@@ -1,0 +1,2501 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ru' Physical Memory: 7916 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Muraqer/предзащита 23.05/предзащита 23.05
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58085
+Successfully changed project path to: C:/Users/Muraqer/предзащита 23.05/предзащита 23.05
+C:/Users/Muraqer/предзащита 23.05/предзащита 23.05
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11776] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3128743795 [EditorId] 3128743795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R9C6LD9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11776] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3128743795 [EditorId] 3128743795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R9C6LD9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 44.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Muraqer/предзащита 23.05/предзащита 23.05/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:   Intel
+    VRAM:     3958 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022752 seconds.
+- Loaded All Assemblies, in  1.499 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1138 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.909 seconds
+Domain Reload Profiling: 3410ms
+	BeginReloadAssembly (597ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (201ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (595ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (567ms)
+			TypeCache.Refresh (565ms)
+				TypeCache.ScanAssembly (535ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1750ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1407ms)
+			SetLoadedEditorAssemblies (38ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.233 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 2256ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (940ms)
+		LoadAssemblies (755ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (248ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1034ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (831ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (654ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (216.6 KB). Loaded Objects now: 2987.
+Memory consumption went from 133.6 MB to 133.4 MB.
+Total: 7.001300 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.077900 ms MarkObjects: 5.588900 ms  DeleteObjects: 0.380000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2456689.918869 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1/Mini Game2/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1b6ff6a2ddbd21b315b526cf3787db') in 0.172147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.907993 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1/Mini Game2/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd1d363a1b63c82f9e3c507453b5a87') in 0.068128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.466775 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1/Mini Game2/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80a8f427465c8f9dce9df25db29d0f7') in 0.051957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (197.9 KB). Loaded Objects now: 2990.
+Memory consumption went from 90.6 MB to 90.4 MB.
+Total: 5.665100 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.072200 ms MarkObjects: 5.182000 ms  DeleteObjects: 0.218500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (199.9 KB). Loaded Objects now: 2990.
+Memory consumption went from 90.9 MB to 90.7 MB.
+Total: 98.545000 ms (FindLiveObjects: 0.954300 ms CreateObjectMapping: 0.183800 ms MarkObjects: 97.169100 ms  DeleteObjects: 0.233800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (200.0 KB). Loaded Objects now: 2990.
+Memory consumption went from 90.7 MB to 90.5 MB.
+Total: 9.976900 ms (FindLiveObjects: 0.905600 ms CreateObjectMapping: 0.225900 ms MarkObjects: 8.593100 ms  DeleteObjects: 0.247700 ms)
+
+Prepare: number of updated asset objects reloaded= 13
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:graphics/shader-precision-model: 02000000000000000000000000000000 -> 01000000000000000000000000000000
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (199.9 KB). Loaded Objects now: 2990.
+Memory consumption went from 90.7 MB to 90.5 MB.
+Total: 8.069500 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.064900 ms MarkObjects: 7.664000 ms  DeleteObjects: 0.165300 ms)
+
+Prepare: number of updated asset objects reloaded= 13
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.120 seconds
+Refreshing native plugins compatible for Editor in 13.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.005 seconds
+Domain Reload Profiling: 8118ms
+	BeginReloadAssembly (2482ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (890ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (780ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (2383ms)
+		LoadAssemblies (2553ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (52ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3008ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (874ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2620 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (218.0 KB). Loaded Objects now: 3138.
+Memory consumption went from 134.1 MB to 133.9 MB.
+Total: 9.980700 ms (FindLiveObjects: 0.554300 ms CreateObjectMapping: 0.214000 ms MarkObjects: 7.498700 ms  DeleteObjects: 1.707900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1229.349451 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98add151db01098a2e54f7a4eaa80b97') in 2.007024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001782 seconds.
+  path: Assets/RPG Button 7/PNG/Red/Hover.png
+  artifactKey: Guid(d0a2f2c068931464c978cb8ce16681e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Red/Hover.png using Guid(d0a2f2c068931464c978cb8ce16681e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34c40301db509d5d7390489c81720914') in 0.373428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/52053.png
+  artifactKey: Guid(ee531b4d125b1d64abece2020eadb55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/52053.png using Guid(ee531b4d125b1d64abece2020eadb55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '864515efc1171c98610f8137ce2dce1d') in 0.115400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/MainMenuCreditsMoveLeftRight.anim
+  artifactKey: Guid(d5580edb5f5cadc4783547d5063ca91b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/MainMenuCreditsMoveLeftRight.anim using Guid(d5580edb5f5cadc4783547d5063ca91b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f515906e6a1fa20467c9e8c77cec407') in 0.229325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Bibliotek/Fon/Firey Space Art.jpg
+  artifactKey: Guid(fa78850ba07512e4ea9a381d25b95843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bibliotek/Fon/Firey Space Art.jpg using Guid(fa78850ba07512e4ea9a381d25b95843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40becffa0293f3ccbc6c935889fbd090') in 0.129793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Retry.png
+  artifactKey: Guid(d623165d848381c4ca42419cff0502e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Retry.png using Guid(d623165d848381c4ca42419cff0502e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e44d4dfd6e82dd3ae1f475d4afe582a') in 0.148816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/DisplayHighscores.cs
+  artifactKey: Guid(10ee502f86be3fc408b88515a388941b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/DisplayHighscores.cs using Guid(10ee502f86be3fc408b88515a388941b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cebe45e31db866243b5b4ed81d590ea8') in 0.060520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/RPG Button 7/PNG
+  artifactKey: Guid(a76cc06d3231c3648a39128e251c3255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG using Guid(a76cc06d3231c3648a39128e251c3255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afbc2af1e1b7a5959d5ea8d8b7e71b0d') in 0.047587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Small_Single.prefab
+  artifactKey: Guid(2aae295a42c0a6b4ba02b57974f58723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Small_Single.prefab using Guid(2aae295a42c0a6b4ba02b57974f58723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '813e91d01b010cb69d17d9602d72a406') in 0.191322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/RPG Button 7/PNG/Red/Pressed.png
+  artifactKey: Guid(2cbd4557352c9a046a94e6ed8a06c71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Red/Pressed.png using Guid(2cbd4557352c9a046a94e6ed8a06c71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6de34c8a957aaaab25d71f6387d11cba') in 0.131516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Small_Triple.prefab
+  artifactKey: Guid(ec502d6b27d368244beb29792ed23818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Small_Triple.prefab using Guid(ec502d6b27d368244beb29792ed23818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1947528752e6cd6414e1e210b75e6e12') in 0.090632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/PngItem_2635924.png
+  artifactKey: Guid(58955e630dece504687909b3ae6efdb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/PngItem_2635924.png using Guid(58955e630dece504687909b3ae6efdb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd634644d119fbbe1cce2401ba5a65b1') in 0.076444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Cactus_Small_Triple.png
+  artifactKey: Guid(4d15df58eb7831440ac1c0f1ab1ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Cactus_Small_Triple.png using Guid(4d15df58eb7831440ac1c0f1ab1ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '091d5cf8fd534be3db767646936f7ae8') in 0.094294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/HighScores.cs
+  artifactKey: Guid(766055f511b47734f847197106d1b1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/HighScores.cs using Guid(766055f511b47734f847197106d1b1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '043493d66b27e0a3a357ac703bc652da') in 0.082426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RPG Button 7/PNG/Blue/Normal.png
+  artifactKey: Guid(e8594e09794233743a5b9cfb02731321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Blue/Normal.png using Guid(e8594e09794233743a5b9cfb02731321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7892718a34c0be14d0d48f72dff78e5c') in 0.074285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG Button 7/PNG/Green
+  artifactKey: Guid(61ccb365c9c018e4ea93cb0a35df51eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Green using Guid(61ccb365c9c018e4ea93cb0a35df51eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d60865c78c0641129a946f087fe154d') in 0.047565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/DinoAnimator.cs
+  artifactKey: Guid(4ce3b7e87180ca34595cf360633d992d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/DinoAnimator.cs using Guid(4ce3b7e87180ca34595cf360633d992d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31ed9ac6f92751a1c3d3d6c591f2799b') in 0.042206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Bibliotek/Fon/Space Nebulae.jpg
+  artifactKey: Guid(b3e8e3b95aa40c64fa434008733341fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bibliotek/Fon/Space Nebulae.jpg using Guid(b3e8e3b95aa40c64fa434008733341fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06a1c4dbe4cda4022f174c98ff3c8b8e') in 0.084838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Dino_Run02.png
+  artifactKey: Guid(d786c10e4ac25ad459107536600557f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Dino_Run02.png using Guid(d786c10e4ac25ad459107536600557f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '777939c74244e6261aec8b4c978a266f') in 0.056392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/CreditsUI.cs
+  artifactKey: Guid(2be3a3b620fe722429eaf7b1c6d20ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/CreditsUI.cs using Guid(2be3a3b620fe722429eaf7b1c6d20ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '511687d60052544dd8bd8c54f14abb7c') in 0.066345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations
+  artifactKey: Guid(78ad9f8ac39dc3c46be56a01cfc9c488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations using Guid(78ad9f8ac39dc3c46be56a01cfc9c488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e42a38587a05ea715a8296056f3bd879') in 0.071924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/MainMenuMove.cs
+  artifactKey: Guid(649b5fdaec59c6f408c05323845b46cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/MainMenuMove.cs using Guid(649b5fdaec59c6f408c05323845b46cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a69ad5a0f932cecc9c620549af5bb617') in 0.047268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scripts/VideoController.cs
+  artifactKey: Guid(4f5382f8a51cf634b9941c44fe2593b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/VideoController.cs using Guid(4f5382f8a51cf634b9941c44fe2593b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4073e8add8d03e8fcd2604c951a0ce49') in 0.060145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Level1/Mini Game/Prefab/photo_11_2024-05-15_19-10-37.png
+  artifactKey: Guid(85ff1de81905d9a40ac39bd0d7e2215b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game/Prefab/photo_11_2024-05-15_19-10-37.png using Guid(85ff1de81905d9a40ac39bd0d7e2215b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '339cf3868b36ace0eab908a6ccbb5e40') in 0.152312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/photo_8_2024-05-15_19-10-37.png
+  artifactKey: Guid(1e9bc7ccd342dcd459173fa99f010a4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/photo_8_2024-05-15_19-10-37.png using Guid(1e9bc7ccd342dcd459173fa99f010a4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e79b04ae6683d3288f6ea4ed704c4e02') in 0.097905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Large_Triple.prefab
+  artifactKey: Guid(a8ae2cae20994b54f8981102b3a38742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Large_Triple.prefab using Guid(a8ae2cae20994b54f8981102b3a38742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60c82ede85da7e8961e765fae4f6e2ee') in 0.072214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/CreditsAnimator.cs
+  artifactKey: Guid(4fcda33cf6a387040a7d9f39600e6d72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/CreditsAnimator.cs using Guid(4fcda33cf6a387040a7d9f39600e6d72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a10c2d3401d1e7bdb113572967344af5') in 0.044498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG Button 7/PNG/Disabled/Disabled Button.png
+  artifactKey: Guid(a7ed4fc2c8927274dbe7fd4e5605a89c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Disabled/Disabled Button.png using Guid(a7ed4fc2c8927274dbe7fd4e5605a89c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83e31a52313b73a611564f5000d3c56b') in 0.059318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Obstacle.cs
+  artifactKey: Guid(51111f9ad11c5a842999d81c1e2664e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Obstacle.cs using Guid(51111f9ad11c5a842999d81c1e2664e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '996514299c8ef06839b337da0c660ee4') in 0.037472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Scripts/Mute.cs
+  artifactKey: Guid(be09ba6a7c27e2d4fa0c8cb6541c9619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Mute.cs using Guid(be09ba6a7c27e2d4fa0c8cb6541c9619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af822efedf69a668137fc02ff91bc28f') in 0.048156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/DinoScale.anim
+  artifactKey: Guid(f5df7f13a61cb7547854881a7a367b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/DinoScale.anim using Guid(f5df7f13a61cb7547854881a7a367b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '098303467a067ff261bb532f1edbbd70') in 0.097848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/MainUI.controller
+  artifactKey: Guid(27430cb4bfbe4854991b8a04a2f1d26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/MainUI.controller using Guid(27430cb4bfbe4854991b8a04a2f1d26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8ee9cb2f0e3553e82f67e227b5ff7d9') in 0.090141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_06.mat
+  artifactKey: Guid(f5599d5d17120464db2c0674944061c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Materials/M_Rock_06.mat using Guid(f5599d5d17120464db2c0674944061c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b83c607f600efbcde43170ab74ef9ba') in 0.254758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_02.mat
+  artifactKey: Guid(dc6cb5217a6b4604c98072452f4c24aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Materials/M_Rock_02.mat using Guid(dc6cb5217a6b4604c98072452f4c24aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb16fe853577c3e82d4cc62a991bae97') in 0.147569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/HardDisplayHighscores.cs
+  artifactKey: Guid(b2715bb0d8e370649ae18086a78aef12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/HardDisplayHighscores.cs using Guid(b2715bb0d8e370649ae18086a78aef12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f02f2af7034b8b7327b801115d8449fd') in 0.054878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_02.prefab
+  artifactKey: Guid(d7ba4fe833670a140b9b6085652f0e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_02.prefab using Guid(d7ba4fe833670a140b9b6085652f0e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdd38172ddcb1541797a7eea5cf7351e') in 0.172192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_05_D.TGA
+  artifactKey: Guid(3c77b118211940247bf4c6bb9aab9800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Texture/T_Rock_05_D.TGA using Guid(3c77b118211940247bf4c6bb9aab9800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4244656c97a1c33cba124d64489cf89') in 0.153833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Cactus_Large_Triple.png
+  artifactKey: Guid(2617f5d480abb8c458feb3053df9f8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Cactus_Large_Triple.png using Guid(2617f5d480abb8c458feb3053df9f8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d1483fed0d688ffaf63b1be993a0cf8') in 0.088171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/RPG Button 7/PNG/Red/Normal.png
+  artifactKey: Guid(2ff65aea1cb1bb14495981580f8c2a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Red/Normal.png using Guid(2ff65aea1cb1bb14495981580f8c2a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c5ab5ac15eb652489afad8cb42a7a56') in 0.059079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Rock Package/Mesh
+  artifactKey: Guid(3a4980857462e7a4381538657cdc14f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Mesh using Guid(3a4980857462e7a4381538657cdc14f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4057b600436d6473ecc591ad2b6d260a') in 0.044997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Rock Package/Scene
+  artifactKey: Guid(0fe9f29fd9ddef94e8fc66f0c926dfa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Scene using Guid(0fe9f29fd9ddef94e8fc66f0c926dfa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c172dfc43f0a6b973bcc5e2b483bdab') in 0.060290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/Custimathizion.unity
+  artifactKey: Guid(1f19197b3531b1d45af887deccb38585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Custimathizion.unity using Guid(1f19197b3531b1d45af887deccb38585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36180afc02eaf1c9200fe80d252a926d') in 0.041107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Spawner.cs
+  artifactKey: Guid(fcecb2f38b20fc24aa6d912ad0afa261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Spawner.cs using Guid(fcecb2f38b20fc24aa6d912ad0afa261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7eea7cdb00fac494bee2b2e599fb81a') in 0.072517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rock Package/Prefabs
+  artifactKey: Guid(feeb8f5983993ac4c9b25cf62d82db8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs using Guid(feeb8f5983993ac4c9b25cf62d82db8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '899b00eaafaffdf2d9ca981e2bcac996') in 0.044451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/HardHighscores.cs
+  artifactKey: Guid(7c7cbf6fb1acbea4f818a8ba6301c5b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/HardHighscores.cs using Guid(7c7cbf6fb1acbea4f818a8ba6301c5b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb600e936c4da67ddc68b6eb97969ad1') in 0.050535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_03_D.TGA
+  artifactKey: Guid(0f51354c336ddcb449e55ce5b7f20266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Texture/T_Rock_03_D.TGA using Guid(0f51354c336ddcb449e55ce5b7f20266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab828dba2f58e00d6bd3b90676df8128') in 0.141316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_03_N.TGA
+  artifactKey: Guid(765b9916ad5a87c4f96e84023311598c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Texture/T_Rock_03_N.TGA using Guid(765b9916ad5a87c4f96e84023311598c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9574bccf5f6c8d10b0e78e75ed8bfa52') in 0.252679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Rock Package
+  artifactKey: Guid(10c61d793a12d434bb438cd9a60e1044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package using Guid(10c61d793a12d434bb438cd9a60e1044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e81af6bf536b29a4d19020e4a10d3e52') in 0.031333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Rock Package/Mesh/Rock_01.FBX
+  artifactKey: Guid(f5df519d22979c248a77eadf5651b327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Mesh/Rock_01.FBX using Guid(f5df519d22979c248a77eadf5651b327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e4ee7b3bdd854bdda00192f963bbea1') in 0.092185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_06.prefab
+  artifactKey: Guid(a649302f8407dd9469e2c5b67b4a0674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_06.prefab using Guid(a649302f8407dd9469e2c5b67b4a0674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62b7beb6eb14445a9a3ab30e9fe92bd2') in 0.057480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/RPG Button 7/PNG/Green/Normal.png
+  artifactKey: Guid(65dc19086cb389a4d82b95bd24f371a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Green/Normal.png using Guid(65dc19086cb389a4d82b95bd24f371a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58a9525a0dc6f015119caa308081991b') in 0.067510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Button 7/Source File/RPG Button 7 Source.psd
+  artifactKey: Guid(8c599fcf1d8cf254f8c7470069e1f55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/Source File/RPG Button 7 Source.psd using Guid(8c599fcf1d8cf254f8c7470069e1f55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39e251461aee53c0f47d268eba33ec78') in 0.158920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Large_Single 1.prefab
+  artifactKey: Guid(04e18ce099c4704499ca0b7a00cba93f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Large_Single 1.prefab using Guid(04e18ce099c4704499ca0b7a00cba93f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23c45214faf9fe15d18c5c384120c43a') in 0.111270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001786 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 15 - MOSSY - small.PNG
+  artifactKey: Guid(4b781e8edafd9a443a49dbfae94e9ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 15 - MOSSY - small.PNG using Guid(4b781e8edafd9a443a49dbfae94e9ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f88472b30c814f71babc50bdc731b69c') in 0.126909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/Highscores.controller
+  artifactKey: Guid(2747e55050eba814d9771752d464bd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/Highscores.controller using Guid(2747e55050eba814d9771752d464bd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef17b4c4b178bb84eb08d48a079d240c') in 0.130818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/itch-io.png
+  artifactKey: Guid(75ca8aba769413643a95cc517ba7dab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/itch-io.png using Guid(75ca8aba769413643a95cc517ba7dab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32a5a133ce2a5871c0a551ad589bf7a8') in 0.300341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 11 - ORANGE - small.PNG
+  artifactKey: Guid(083ce3f1b846407478a9425d0e0896c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 11 - ORANGE - small.PNG using Guid(083ce3f1b846407478a9425d0e0896c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e112e4dae8a79ce5218e438b4d72658') in 0.171731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 14 - ORANGE - BIG.PNG
+  artifactKey: Guid(3a619240a036297499e069562d6b6231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 14 - ORANGE - BIG.PNG using Guid(3a619240a036297499e069562d6b6231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37b440fe647b0a4c4c54e35b1ea7b128') in 0.215239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 14 - SILVER - BIG.PNG
+  artifactKey: Guid(b3ca7cceee89a694788d6baa2f93da6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 14 - SILVER - BIG.PNG using Guid(b3ca7cceee89a694788d6baa2f93da6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38e27153085edd8b441a842d928191bc') in 0.105248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/NicePng_black-square-png_150003.png
+  artifactKey: Guid(e189f7980e7019f45ae7f87039d1cbb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/NicePng_black-square-png_150003.png using Guid(e189f7980e7019f45ae7f87039d1cbb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '654e4d88f751875b83b3fe98697e84d9') in 0.058400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Bird3.prefab
+  artifactKey: Guid(46447699d654d5b40a27032517c9f56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Bird3.prefab using Guid(46447699d654d5b40a27032517c9f56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '660ef4670a3aba874e1ef49e9c927941') in 0.202898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_04 1.prefab
+  artifactKey: Guid(12e9ede2b1f4cf84b9f32bd34342bb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_04 1.prefab using Guid(12e9ede2b1f4cf84b9f32bd34342bb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61f1b626803dd16a614866f7466696ab') in 0.082466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 8 - SILVER - BIG.PNG
+  artifactKey: Guid(fd31e44c84c071f45954edd7339c64e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 8 - SILVER - BIG.PNG using Guid(fd31e44c84c071f45954edd7339c64e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30b7f9eb442c82cff8343ea462579e75') in 0.074759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/TrDinosMenu.cs
+  artifactKey: Guid(682149a374c32cb4e8ea5cfff9afd687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/TrDinosMenu.cs using Guid(682149a374c32cb4e8ea5cfff9afd687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c4c7284c797af9e48398e2432505ba0') in 0.044910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_03.mat
+  artifactKey: Guid(4315922abf0d24d4285a748c6c798aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Materials/M_Rock_03.mat using Guid(4315922abf0d24d4285a748c6c798aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75be2c88c3b9d1fa30fc8bda29299fd9') in 0.101033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/DinoMove.cs
+  artifactKey: Guid(e93a7f431b77be642a052893d6036362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/DinoMove.cs using Guid(e93a7f431b77be642a052893d6036362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b27fa4fd4f835f93a53e94675839dec9') in 0.045323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/RPG Button 7/PNG/Yellow
+  artifactKey: Guid(5e2d1901d3dfe3740a0dde5a7cc0df00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Yellow using Guid(5e2d1901d3dfe3740a0dde5a7cc0df00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aa3fa1c9bad89eb5294b93d6a469281') in 0.050465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_01 1.prefab
+  artifactKey: Guid(baf189f0bcdfa7e4db96696fbc4820ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_01 1.prefab using Guid(baf189f0bcdfa7e4db96696fbc4820ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b351e4ef01aaedcff9350fef7c36cb7') in 0.067801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Bibliotek/Fon/Начало — сделано в Clipchamp.mp4
+  artifactKey: Guid(384e67876b04a9345a138debcedb8e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bibliotek/Fon/Начало — сделано в Clipchamp.mp4 using Guid(384e67876b04a9345a138debcedb8e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c296e589b0839863124a2d082e650918') in 0.129267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000828 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 8 - MOSSY - small.PNG
+  artifactKey: Guid(d6846b703640641439a4f2c4fa797eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 8 - MOSSY - small.PNG using Guid(d6846b703640641439a4f2c4fa797eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c7b6d2964eebeb664a6ce940bc9418') in 0.131684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 10 - WHITE - BIG.PNG
+  artifactKey: Guid(08440ceb8d56da242bf9123b31929c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 10 - WHITE - BIG.PNG using Guid(08440ceb8d56da242bf9123b31929c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b66fbbad653174c834c483b0359d108') in 0.089144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 9 - WHITE - small.PNG
+  artifactKey: Guid(1ae7c714bc7aecf489e5a209b052bff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 9 - WHITE - small.PNG using Guid(1ae7c714bc7aecf489e5a209b052bff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '769fa37448b0bf99dd56a07ba20bed15') in 0.097386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG Button 7/PNG/Blue
+  artifactKey: Guid(3a1684d856055c84499591f1c8cd944e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Blue using Guid(3a1684d856055c84499591f1c8cd944e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '283ad09596997e97afed891c4e01b2d3') in 0.053566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/twitter.png
+  artifactKey: Guid(cc97ae48e4de1ea468e1d5eaaef8dae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/twitter.png using Guid(cc97ae48e4de1ea468e1d5eaaef8dae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a554e8da93cc4e92f50ea80918462d22') in 0.074585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Bird0.prefab
+  artifactKey: Guid(d6bd8605048f1d54eb81f0a170c80c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Bird0.prefab using Guid(d6bd8605048f1d54eb81f0a170c80c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8af0d0cdbd54fa1f1a546fd4ebb0975') in 0.029901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scenes/MainMenu.unity
+  artifactKey: Guid(9d1b137ae627fc245a0ab359593804b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scenes/MainMenu.unity using Guid(9d1b137ae627fc245a0ab359593804b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3eef54225a70fe6be96a07d62f08c888') in 0.021155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scenes/Level1/Mini Game/Sprites/photo_10_2024-05-15_19-10-37.jpg
+  artifactKey: Guid(c0d263473b716ad408b5e5aae0f8f08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game/Sprites/photo_10_2024-05-15_19-10-37.jpg using Guid(c0d263473b716ad408b5e5aae0f8f08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '130aa752c315055cef87bd698b7bdadb') in 0.050567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/RPG Button 7/PNG/Violet/Pressed.png
+  artifactKey: Guid(98d581fbdfea8ee4cb13cbd5a2ea15fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Violet/Pressed.png using Guid(98d581fbdfea8ee4cb13cbd5a2ea15fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbd2a247e472e8e66286888e1b0c3363') in 0.058529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Bird_02.png
+  artifactKey: Guid(b2ee86cc56de5ea4281d3b900a58436d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Bird_02.png using Guid(b2ee86cc56de5ea4281d3b900a58436d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4b517f9ea9b81ef6d7771ca21abfe90') in 0.077541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RPG Button 7/Source File
+  artifactKey: Guid(ae16640f56ad8c94d8c9341fd868441e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/Source File using Guid(ae16640f56ad8c94d8c9341fd868441e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83015d912723a4d8a6a8093fce7e8ee2') in 0.038975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Small_Double.prefab
+  artifactKey: Guid(986ce64ba556f184ea36c8bc3db8fc19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Cactus_Small_Double.prefab using Guid(986ce64ba556f184ea36c8bc3db8fc19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb02797ac525fa57f9778e17468f3031') in 0.050368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_06_D.TGA
+  artifactKey: Guid(6a873f72a8e88a146a06e4a366806078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Texture/T_Rock_06_D.TGA using Guid(6a873f72a8e88a146a06e4a366806078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4c55cfe6c0c001508c4ea07fdef598c') in 0.059014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/DinosMenu.anim
+  artifactKey: Guid(aee8dd0dfb468834baedc4f443157f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/DinosMenu.anim using Guid(aee8dd0dfb468834baedc4f443157f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2571e407cb3b18a81191b0294db05a9d') in 0.041472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_02 1.prefab
+  artifactKey: Guid(1c7351261e81ac847a6d4a15b41d17da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_02 1.prefab using Guid(1c7351261e81ac847a6d4a15b41d17da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cec75beb40846e55f65f4e9cebb6ae33') in 0.062564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 3 - BEIGE - BIG.PNG
+  artifactKey: Guid(94659c1c6b17a5446a0e939de118b2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 3 - BEIGE - BIG.PNG using Guid(94659c1c6b17a5446a0e939de118b2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb1856100f6759e1c47d73d72b7369f8') in 0.080249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 9 - MOSSY - BIG.PNG
+  artifactKey: Guid(8bfca37380e305746a40f9703f74e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 9 - MOSSY - BIG.PNG using Guid(8bfca37380e305746a40f9703f74e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81d758e94b2e0044317c8bcf8143b1ad') in 0.080927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 2 - SILVER - small.PNG
+  artifactKey: Guid(89d8d0e73babad34db2f7d90a204213d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 2 - SILVER - small.PNG using Guid(89d8d0e73babad34db2f7d90a204213d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62f938e89c88568d382e8c8881dfc2b2') in 0.051900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 3 - SILVER - small.PNG
+  artifactKey: Guid(28c3f44b28677fd4c85178f0e94f444d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 3 - SILVER - small.PNG using Guid(28c3f44b28677fd4c85178f0e94f444d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9e5afd9eda5db9993c47faed21756b3') in 0.116676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 13 - MOSSY - small.PNG
+  artifactKey: Guid(9a5db8064a8f54e4189414b0f426bbca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 13 - MOSSY - small.PNG using Guid(9a5db8064a8f54e4189414b0f426bbca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a09ba4a48c5a3e6fb41225eb9caf32f4') in 0.110841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 5 - WHITE - small.PNG
+  artifactKey: Guid(21675b1ff8893b44394800c51dd22e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 5 - WHITE - small.PNG using Guid(21675b1ff8893b44394800c51dd22e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f459b3c79c6f2c23ba16af68ea32ea7') in 0.114441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 13 - BEIGE - BIG.PNG
+  artifactKey: Guid(018b55e3e8f663d4abf9a9a7b6872527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 13 - BEIGE - BIG.PNG using Guid(018b55e3e8f663d4abf9a9a7b6872527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2974165e5979c76db728def452f0cc72') in 0.080318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 7 - ORANGE - BIG.PNG
+  artifactKey: Guid(8a44bdd11bf392d40988ca06aae23f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 7 - ORANGE - BIG.PNG using Guid(8a44bdd11bf392d40988ca06aae23f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '139709d2012ac9d38b047b24495fe3a3') in 0.117636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -
+  artifactKey: Guid(c5fe38e3c26e27c42862e7fc46630feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY - using Guid(c5fe38e3c26e27c42862e7fc46630feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f86d47418cb5daf2d55040f9a2f8b552') in 0.062412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 6 - BEIGE - small.PNG
+  artifactKey: Guid(38d40a8ef40e9054e8c34b53affe2dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 6 - BEIGE - small.PNG using Guid(38d40a8ef40e9054e8c34b53affe2dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2102c4e3b82f095d31ad0a0a81b35d1d') in 0.099103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 14 - MOSSY - BIG.PNG
+  artifactKey: Guid(12e70f843b0e0934aaf074fc57f8eaff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 14 - MOSSY - BIG.PNG using Guid(12e70f843b0e0934aaf074fc57f8eaff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97fd9eec2ef5ac9eaebf8e19de9a54e9') in 0.088229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 12 - SILVER - small.PNG
+  artifactKey: Guid(4c23a9e314507834f94b50c0a7b81277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 12 - SILVER - small.PNG using Guid(4c23a9e314507834f94b50c0a7b81277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82f369311919f92201fed90cbd420e9e') in 0.090831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 12 - MOSSY - BIG.PNG
+  artifactKey: Guid(cc65721277cd1e946b253dd92755c585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 12 - MOSSY - BIG.PNG using Guid(cc65721277cd1e946b253dd92755c585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b589950e663ca59cb0b2a8b4106e247') in 0.099320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 14 - SILVER - small.PNG
+  artifactKey: Guid(404a65fd5902e9641a79d5dd1720a045) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 14 - SILVER - small.PNG using Guid(404a65fd5902e9641a79d5dd1720a045) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c59783904ef121f555afa7c6fc89aa2') in 0.063194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 7 - ORANGE - small.PNG
+  artifactKey: Guid(9f10d4102d1bed243aa3da09b5a528e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 7 - ORANGE - small.PNG using Guid(9f10d4102d1bed243aa3da09b5a528e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef9beedf14c0421702f3d776a9fbd78e') in 0.106725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -
+  artifactKey: Guid(f601ae94a38a2304f89223339e2e78df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE - using Guid(f601ae94a38a2304f89223339e2e78df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b96f648d926cce1dbc943869ff263a2') in 0.035513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 8 - ORANGE - small.PNG
+  artifactKey: Guid(c08edbb2ce8646d42ad972ca6e6ed400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 8 - ORANGE - small.PNG using Guid(c08edbb2ce8646d42ad972ca6e6ed400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '953b0a6c3a0d8b5d423e022411bb90cb') in 0.083989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 11 - SILVER - BIG.PNG
+  artifactKey: Guid(41886a4facb2d4944a3f94767b8cef39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 11 - SILVER - BIG.PNG using Guid(41886a4facb2d4944a3f94767b8cef39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f67910a3a5e59243b1954a0d556371f0') in 0.092026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 7 - WHITE - small.PNG
+  artifactKey: Guid(14b650ea6ffd2404bba30675038546ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 7 - WHITE - small.PNG using Guid(14b650ea6ffd2404bba30675038546ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48017940be6011a79a6bbaeb7004af11') in 0.089000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 2 - BEIGE - small.PNG
+  artifactKey: Guid(f2bfc7256d7db7f42a578702c8f4aa88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 2 - BEIGE - small.PNG using Guid(f2bfc7256d7db7f42a578702c8f4aa88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e798a5f688ab7ae85b4ae28b529fc2a') in 0.072848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 5 - AZURE - small.PNG
+  artifactKey: Guid(aad884d6b6f44b5498d7cd18b363739d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 5 - AZURE - small.PNG using Guid(aad884d6b6f44b5498d7cd18b363739d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3514ddd18839520f8abac2416dcd2e87') in 0.078571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 7 - AZURE - small.PNG
+  artifactKey: Guid(896f8a7c62e8b0d48a1c595097f747fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 7 - AZURE - small.PNG using Guid(896f8a7c62e8b0d48a1c595097f747fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf22bf9795869c947e3bc255463a40f4') in 0.089099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 5 - BEIGE - BIG.PNG
+  artifactKey: Guid(4037418445d702749a674fabf5706219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 5 - BEIGE - BIG.PNG using Guid(4037418445d702749a674fabf5706219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60915c9eef6f273ba1cbdf66a7b01f9d') in 0.100170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 12 - BEIGE - small.PNG
+  artifactKey: Guid(871a2849723cfcd4390c3c48f103597e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 12 - BEIGE - small.PNG using Guid(871a2849723cfcd4390c3c48f103597e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e635a5b09463fc3fe9cad9c9734d6cdc') in 0.093244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 13 - SILVER - small.PNG
+  artifactKey: Guid(5f1ac6cfe20679d45afa9be9bfc7463d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 13 - SILVER - small.PNG using Guid(5f1ac6cfe20679d45afa9be9bfc7463d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2d95adff15e496474d99fdb70ddc2b7') in 0.078943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 4 - ORANGE - small.PNG
+  artifactKey: Guid(f5dfc322b857eb04ab0737669a1addb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 4 - ORANGE - small.PNG using Guid(f5dfc322b857eb04ab0737669a1addb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '797548a4940fe85e293718c50c57009b') in 0.082113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 4 - MOSSY - small.PNG
+  artifactKey: Guid(99fdc94eef4ea7d449fa1ddbf9fc01bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 4 - MOSSY - small.PNG using Guid(99fdc94eef4ea7d449fa1ddbf9fc01bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '094e521c5330cac23245f62f4a019c4a') in 0.083240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 2 - AZURE - BIG.PNG
+  artifactKey: Guid(e9f4af4d452ebf346ba56a8b4e63c36e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 2 - AZURE - BIG.PNG using Guid(e9f4af4d452ebf346ba56a8b4e63c36e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0ad288cf6b147ed80e77f13278ed20c') in 0.090940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 13 - AZURE - BIG.PNG
+  artifactKey: Guid(5792047994578ae4c9201bc7b6d31788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 13 - AZURE - BIG.PNG using Guid(5792047994578ae4c9201bc7b6d31788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61845586a46e8a6fa8d059efa1060043') in 0.090948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 6 - AZURE - small.PNG
+  artifactKey: Guid(6dc050319b181ba49b8779862b2be747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 6 - AZURE - small.PNG using Guid(6dc050319b181ba49b8779862b2be747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b2ce5aa71a9f47d565137564805caa7') in 0.077330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 7 - WHITE - BIG.PNG
+  artifactKey: Guid(e85a0a0918a3c144fb852086799e5a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 7 - WHITE - BIG.PNG using Guid(e85a0a0918a3c144fb852086799e5a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '153e18e830b80c52b7c3025aad9ade70') in 0.078531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 8 - AZURE - small.PNG
+  artifactKey: Guid(bc429c68279723342bdab76cb6901f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 8 - AZURE - small.PNG using Guid(bc429c68279723342bdab76cb6901f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bff5c9843e2359ac1740e107e9267694') in 0.133079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 8 - WHITE - BIG.PNG
+  artifactKey: Guid(c04c68d5e8df3784083cc30225c22d26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 8 - WHITE - BIG.PNG using Guid(c04c68d5e8df3784083cc30225c22d26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2384c59190fa732ed562c3801b16612f') in 0.095008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 8 - BEIGE - BIG.PNG
+  artifactKey: Guid(ce2eddcb82513e641b9a894b9a163174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 8 - BEIGE - BIG.PNG using Guid(ce2eddcb82513e641b9a894b9a163174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99f1674dffc70e333f2df071c9ea375f') in 0.079181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/karsiori
+  artifactKey: Guid(18a1ab661fe1e314a91bb94ff9ce0a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori using Guid(18a1ab661fe1e314a91bb94ff9ce0a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3fec5518a331e9aa9fb4ac446df4a23') in 0.050972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 11 - BEIGE - small.PNG
+  artifactKey: Guid(67ee866f2ee56c84899d367e13901199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 11 - BEIGE - small.PNG using Guid(67ee866f2ee56c84899d367e13901199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e0de3ac2056a94869b0d4d4132c507c') in 0.073103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 4 - ORANGE - BIG.PNG
+  artifactKey: Guid(cde9aecaee896b64a9a8d29a2b6800a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 4 - ORANGE - BIG.PNG using Guid(cde9aecaee896b64a9a8d29a2b6800a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '154f449cc8f4c5c3d531347574c23d8f') in 0.135634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 5 - MOSSY - small.PNG
+  artifactKey: Guid(c34dc36a61cb5bd4c9171bb313a8dab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 5 - MOSSY - small.PNG using Guid(c34dc36a61cb5bd4c9171bb313a8dab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c5eb8e04a1a77dd09386db99cefba5a') in 0.084839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 10 - MOSSY - BIG.PNG
+  artifactKey: Guid(3344c4062e473354185383666027f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 10 - MOSSY - BIG.PNG using Guid(3344c4062e473354185383666027f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e6b5794fa28720dd9ad26d5ec3321d9') in 0.082748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 11 - ORANGE - BIG.PNG
+  artifactKey: Guid(412065c7de6d1784090e46ccb4b01826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 11 - ORANGE - BIG.PNG using Guid(412065c7de6d1784090e46ccb4b01826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18e34261ccd00286812973e8f6886311') in 0.088066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 5 - AZURE - BIG.PNG
+  artifactKey: Guid(b6c430186c5ebbd4a9f8d2ea7fbe915f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 5 - AZURE - BIG.PNG using Guid(b6c430186c5ebbd4a9f8d2ea7fbe915f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3a39a708439524264216e74e5facce0') in 0.064561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 3 - AZURE - BIG.PNG
+  artifactKey: Guid(ad24cccbfb9eaaa458b7b18b17a6e83f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 3 - AZURE - BIG.PNG using Guid(ad24cccbfb9eaaa458b7b18b17a6e83f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54df6e6410a6e45a08d5994ad83a0119') in 0.091188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rock Package/Mesh/Rock_05.FBX
+  artifactKey: Guid(d27239c9a7de0f243876d949bb27027b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Mesh/Rock_05.FBX using Guid(d27239c9a7de0f243876d949bb27027b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e938772715d560a942cc5928e0095655') in 0.095319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 11 - SILVER - small.PNG
+  artifactKey: Guid(d3493c5284a6b29419bcad0004ff3c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 11 - SILVER - small.PNG using Guid(d3493c5284a6b29419bcad0004ff3c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84d439abb97512df653239d7c868d8f7') in 0.093213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 14 - WHITE - small.PNG
+  artifactKey: Guid(e3599af5a3fe9df4ba07fdd6d154de38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 14 - WHITE - small.PNG using Guid(e3599af5a3fe9df4ba07fdd6d154de38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36249ad19509ca0da8e39131d786ad90') in 0.081659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 10 - ORANGE - small.PNG
+  artifactKey: Guid(af0cc36aa6740734e9495d5aeca3cdaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 10 - ORANGE - small.PNG using Guid(af0cc36aa6740734e9495d5aeca3cdaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9cced22c3ce4633e16b8cc00756658b') in 0.082196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 12 - AZURE - BIG.PNG
+  artifactKey: Guid(152ae1b9765dbf541815f8f0ca6ffc68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 12 - AZURE - BIG.PNG using Guid(152ae1b9765dbf541815f8f0ca6ffc68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b09875baeeb9b635db32c479dfc2485') in 0.090268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 1 - AZURE - BIG.PNG
+  artifactKey: Guid(e0363fb1f9e9ec44187bc9f5a1f6d30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 1 - AZURE - BIG.PNG using Guid(e0363fb1f9e9ec44187bc9f5a1f6d30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '966ff2f80597b33a6c21e4386a9185e7') in 0.056932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/DinoRun.anim
+  artifactKey: Guid(19c7789a9baa29147be8ec8c42eac25b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/DinoRun.anim using Guid(19c7789a9baa29147be8ec8c42eac25b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b84e1658addb3d610be2b6ccf26a3494') in 0.043156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/DinoMoveSideLeftRight.anim
+  artifactKey: Guid(8f049514f61a22d41866a67d89e51b5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/DinoMoveSideLeftRight.anim using Guid(8f049514f61a22d41866a67d89e51b5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f3fcb49a7f37ac1a716d495de3a23e9') in 0.049517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 7 - MOSSY - BIG.PNG
+  artifactKey: Guid(2150c6f223c8e3944bbe2e50c3857b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 7 - MOSSY - BIG.PNG using Guid(2150c6f223c8e3944bbe2e50c3857b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b19072e524f93756401389b3c2ae116') in 0.093158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 15 - AZURE - small.PNG
+  artifactKey: Guid(857ab152e8b5cb74081f8ce4161aa003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 15 - AZURE - small.PNG using Guid(857ab152e8b5cb74081f8ce4161aa003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f41a403bdf03ca24ced15468e6b8fce') in 0.091276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 11 - MOSSY - small.PNG
+  artifactKey: Guid(1c1bdac45d008a2428f0ed50e608138b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 11 - MOSSY - small.PNG using Guid(1c1bdac45d008a2428f0ed50e608138b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08de19a61cca68fef3501a5f55f9be8c') in 0.104404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 2 - WHITE - BIG.PNG
+  artifactKey: Guid(4c819ed9a5f0d1849b27f705b51dac06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 2 - WHITE - BIG.PNG using Guid(4c819ed9a5f0d1849b27f705b51dac06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62def2823905f5b2f6576d13c5078b23') in 0.085278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 4 - MOSSY - BIG.PNG
+  artifactKey: Guid(be57163d9e55ae546825f72862bc964d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 4 - MOSSY - BIG.PNG using Guid(be57163d9e55ae546825f72862bc964d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e57338b967c018bca41492e5e9893bb2') in 0.105535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 5 - ORANGE - BIG.PNG
+  artifactKey: Guid(7b026b5fabaf6d64a8829315dc03a200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 5 - ORANGE - BIG.PNG using Guid(7b026b5fabaf6d64a8829315dc03a200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bec80adfbd6829081804ab854a6e59e') in 0.101981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 3 - MOSSY - small.PNG
+  artifactKey: Guid(f1e1af4ee34c69d43b8ea28747a78df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 3 - MOSSY - small.PNG using Guid(f1e1af4ee34c69d43b8ea28747a78df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e60750dd2678e43e49576a099abb7d9f') in 0.077218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 10 - AZURE - BIG.PNG
+  artifactKey: Guid(54e6834b9276b974b8bba5b20df08801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 10 - AZURE - BIG.PNG using Guid(54e6834b9276b974b8bba5b20df08801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1754003e26a2e817c4f21309af23909') in 0.082327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Dino_Idle.png
+  artifactKey: Guid(e07568078ecabd941b521b90011657a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Dino_Idle.png using Guid(e07568078ecabd941b521b90011657a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8367d0164563691af3c967d8f83db6dd') in 0.055148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/TextMesh Pro
+  artifactKey: Guid(fa351106f3cc349418303e5204b9b074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/TextMesh Pro using Guid(fa351106f3cc349418303e5204b9b074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9575c282e2917e4cf61ea5e28dede18b') in 0.032586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rock Package/Materials/M_Rock_05.mat
+  artifactKey: Guid(c3bb3860b394e414bb3935cbf8620390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Materials/M_Rock_05.mat using Guid(c3bb3860b394e414bb3935cbf8620390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aefebd7c3a7199ea297a98c1a837b1c6') in 0.084239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/DinoLeftRight.anim
+  artifactKey: Guid(0d656b244efc9204b9bb43bdad41b07f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/DinoLeftRight.anim using Guid(0d656b244efc9204b9bb43bdad41b07f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a5ffe3a79c59b36b76d6eaac3fb4335') in 0.044213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 10 - MOSSY - small.PNG
+  artifactKey: Guid(318289aee3d367f42a03be3dea77f192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 10 - MOSSY - small.PNG using Guid(318289aee3d367f42a03be3dea77f192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb49b7d27b91865c4ee8cc54346e25d3') in 0.109733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 9 - MOSSY - small.PNG
+  artifactKey: Guid(b8673ef36b847834a91f05af5c60da5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 9 - MOSSY - small.PNG using Guid(b8673ef36b847834a91f05af5c60da5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f949d916ce34dd15c19fc71589d860d7') in 0.074189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 1 - MOSSY - small.PNG
+  artifactKey: Guid(d2fc9565b42af6a43b95f51565c668db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 1 - MOSSY - small.PNG using Guid(d2fc9565b42af6a43b95f51565c668db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '593dc725eb4dfb8179f8b691bb746140') in 0.083938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 10 - BEIGE - BIG.PNG
+  artifactKey: Guid(b976df7dbb8be194ba9c2275a58b4984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 10 - BEIGE - BIG.PNG using Guid(b976df7dbb8be194ba9c2275a58b4984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac599ca6602549962f861449dc88fc3d') in 0.082593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 3 - ORANGE - small.PNG
+  artifactKey: Guid(3408701b316a40c4b8955ff42a23375a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 3 - ORANGE - small.PNG using Guid(3408701b316a40c4b8955ff42a23375a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03c6394dc3abf586d57200cd4f3f08aa') in 0.075020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 12 - WHITE - small.PNG
+  artifactKey: Guid(b5cdeffbe1815cb498d01b4ae7cb56d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 12 - WHITE - small.PNG using Guid(b5cdeffbe1815cb498d01b4ae7cb56d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4799090fed9abd8df1073bf25ceb9942') in 0.111606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 3 - AZURE - small.PNG
+  artifactKey: Guid(6ced02eb1e98f9344af50d6180b2d1ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 3 - AZURE - small.PNG using Guid(6ced02eb1e98f9344af50d6180b2d1ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '923906212a59a3d76ea59780322a08f1') in 0.081973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 2 - AZURE - small.PNG
+  artifactKey: Guid(53ee47118a4de2c4aba36bbdff6884be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 2 - AZURE - small.PNG using Guid(53ee47118a4de2c4aba36bbdff6884be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3a875a49737e731df7dbc71ae25b9a7') in 0.085578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 8 - AZURE - BIG.PNG
+  artifactKey: Guid(d7723d3807d64d849b3049c358e685e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 8 - AZURE - BIG.PNG using Guid(d7723d3807d64d849b3049c358e685e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a62dd707aac4bf10cef0306a9408275c') in 0.054880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 4 - AZURE - small.PNG
+  artifactKey: Guid(c484f6d1b1e05b1469bb5efc5aaa43e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 4 - AZURE - small.PNG using Guid(c484f6d1b1e05b1469bb5efc5aaa43e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf1f537a97a8e92b6b7fbe61653aa1f4') in 0.070358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 10 - AZURE - BIG.PNG
+  artifactKey: Guid(05f0c1c360be9e247ba83e8b2636728d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 10 - AZURE - BIG.PNG using Guid(05f0c1c360be9e247ba83e8b2636728d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7de74f8684809868e8c896229cc2e17f') in 0.074810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/GroundLeftRight.anim
+  artifactKey: Guid(b4a1bd58199f25c4584d7a8a26029c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/GroundLeftRight.anim using Guid(b4a1bd58199f25c4584d7a8a26029c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a9a56079bc772a25c474d3c3a614d2d') in 0.062130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 7 - BEIGE - small.PNG
+  artifactKey: Guid(70f3fa366eb5dae409be964f385cd708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 7 - BEIGE - small.PNG using Guid(70f3fa366eb5dae409be964f385cd708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6422e0bc886672773b7149af1baac99') in 0.084892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Adaptive Performance
+  artifactKey: Guid(385e1e9105c1a9841970dce90b8d785b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adaptive Performance using Guid(385e1e9105c1a9841970dce90b8d785b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1ffe0e9ebac2b109ba67592199b9a79') in 0.035821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Adaptive Performance/Settings
+  artifactKey: Guid(faea5c3cbbb759e4bbe8731f8590f07d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adaptive Performance/Settings using Guid(faea5c3cbbb759e4bbe8731f8590f07d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '388535952dc96a7d1e2e8c3bcc77b864') in 0.028845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset
+  artifactKey: Guid(699a21d15b728714eb14563e69f29334) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset using Guid(699a21d15b728714eb14563e69f29334) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25733a03c89d3cf07e84e6560c91f1a4') in 0.122123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Rock Package/Mesh/Rock_02.FBX
+  artifactKey: Guid(05e04fedc78047c48af519e94c595e13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Mesh/Rock_02.FBX using Guid(05e04fedc78047c48af519e94c595e13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acd9d41f8810a27d35532af692ba802a') in 0.083371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_03 1.prefab
+  artifactKey: Guid(53886ee3d0714934a8a506c53960b69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_03 1.prefab using Guid(53886ee3d0714934a8a506c53960b69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '796192c4c8457c83c0e35f5618b61463') in 0.117632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 6 - SILVER - small.PNG
+  artifactKey: Guid(cd938c9146905d142b024db54e683f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 6 - SILVER - small.PNG using Guid(cd938c9146905d142b024db54e683f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6ac977ec704f64525c5f5bf8f3b2384') in 0.140267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/CameraMover.cs
+  artifactKey: Guid(2b7ca9b9d4e2a2a4e877ef3b11e6046a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/CameraMover.cs using Guid(2b7ca9b9d4e2a2a4e877ef3b11e6046a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87843e302a31ea5c059ad217322d624c') in 0.036636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/SceneManagmenter.cs
+  artifactKey: Guid(9e9775ddd8e4fd94384b46e906debf42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/SceneManagmenter.cs using Guid(9e9775ddd8e4fd94384b46e906debf42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0703c5a2bb419f1a36558e867f7fc886') in 0.042289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 11 - AZURE - small.PNG
+  artifactKey: Guid(8ecb76b494f9fdc458e4d2910c6a9e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 11 - AZURE - small.PNG using Guid(8ecb76b494f9fdc458e4d2910c6a9e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed8ef5f3a15280461cc2dfd02e618bee') in 0.118096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 2 - ORANGE - small.PNG
+  artifactKey: Guid(647a4cdf430e81141954e895367e156b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 2 - ORANGE - small.PNG using Guid(647a4cdf430e81141954e895367e156b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd59fc293060b5469cc4a4845687bd416') in 0.095606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/MainMenu.cs
+  artifactKey: Guid(7fcea51f7909b7f41a5335586696b2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/MainMenu.cs using Guid(7fcea51f7909b7f41a5335586696b2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fd6584ffc007fd668ec3ee6a36af43f') in 0.061138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 9 - BEIGE - small.PNG
+  artifactKey: Guid(4a14e7cb80cca09459f560e7e13d0f3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 9 - BEIGE - small.PNG using Guid(4a14e7cb80cca09459f560e7e13d0f3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '725f1dc6343dee782a8d5b361687f287') in 0.103584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004987 seconds.
+  path: Assets/Rock Package/Scene/Rock map.unity
+  artifactKey: Guid(7a4165c18b581c845aba6899aa0cccb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Scene/Rock map.unity using Guid(7a4165c18b581c845aba6899aa0cccb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd069265acdb22e795638282499f89155') in 0.040042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations/HighscoresOnOff.anim
+  artifactKey: Guid(362af326ec131754a8d8dd1f00ac9dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations/HighscoresOnOff.anim using Guid(362af326ec131754a8d8dd1f00ac9dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbc100179479fa84150d123038b677c8') in 0.050927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_04_N.TGA
+  artifactKey: Guid(3b463d7df9e48e24a94cf0033cb321d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Texture/T_Rock_04_N.TGA using Guid(3b463d7df9e48e24a94cf0033cb321d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fae2dd10243ecf93fbd22ddd8e8684a') in 0.084107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 9 - ORANGE - BIG.PNG
+  artifactKey: Guid(227d36ce855ae5143aba237f74210f3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 9 - ORANGE - BIG.PNG using Guid(227d36ce855ae5143aba237f74210f3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df7791ce3b641dac62e8fd130bcf076b') in 0.101171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Bibliotek/Fon/photo_5_2024-05-15_19-10-37.jpg
+  artifactKey: Guid(e5c1137ff490538458cf04dba4c6810c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bibliotek/Fon/photo_5_2024-05-15_19-10-37.jpg using Guid(e5c1137ff490538458cf04dba4c6810c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8462d0cef27a41b4e9ccea16ad668d0') in 0.188436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 13 - WHITE - BIG.PNG
+  artifactKey: Guid(7ad811c1eb8eeee4c89124ba73e5c23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 13 - WHITE - BIG.PNG using Guid(7ad811c1eb8eeee4c89124ba73e5c23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2b8d111db16815bd30ea3ec519f134b') in 0.130215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 5 - SILVER - BIG.PNG
+  artifactKey: Guid(210516c7a1d43a047af34755b4488fee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 5 - SILVER - BIG.PNG using Guid(210516c7a1d43a047af34755b4488fee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '673756495863f9961c7e771b99e03751') in 0.112971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Bibliotek/Fon/Purple Nebulae Stars.jpg
+  artifactKey: Guid(621ce15d9002438419ffb019e2b723af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bibliotek/Fon/Purple Nebulae Stars.jpg using Guid(621ce15d9002438419ffb019e2b723af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '527d2d5ad97dd1c35332a089e0f54cac') in 0.096278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Links.cs
+  artifactKey: Guid(1dce6ad92470e8d45b398d7db6a2edf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Links.cs using Guid(1dce6ad92470e8d45b398d7db6a2edf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e97ed417847826d8594bc616d80f1dbb') in 0.049645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Animations
+  artifactKey: Guid(aa47b9b074cd26b46889624014ad10b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Animations using Guid(aa47b9b074cd26b46889624014ad10b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e20675dc65897f554a5fc181b580c0ec') in 0.045285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 15 - MOSSY - BIG.PNG
+  artifactKey: Guid(8eaa39721082c0543b24ceea6fe2109e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 15 - MOSSY - BIG.PNG using Guid(8eaa39721082c0543b24ceea6fe2109e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb0be7aadaabf873f1528b41680ecf8c') in 0.099707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 1 - ORANGE - BIG.PNG
+  artifactKey: Guid(42979bfa55571ea4c8190787a7d63dc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 1 - ORANGE - BIG.PNG using Guid(42979bfa55571ea4c8190787a7d63dc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64eecbc37e0bef82745b4ef4a5be8cf5') in 0.089642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 8 - BEIGE - small.PNG
+  artifactKey: Guid(a4f27e6489ad5af4b95c87e3de87c511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 8 - BEIGE - small.PNG using Guid(a4f27e6489ad5af4b95c87e3de87c511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16ae795c71a95585a5a05684d27e7e3e') in 0.145340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 2 - BEIGE - BIG.PNG
+  artifactKey: Guid(01477668c6563b84c9f0fc82b33ddb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 2 - BEIGE - BIG.PNG using Guid(01477668c6563b84c9f0fc82b33ddb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f8968df4134a55a12c2c4f40b0d7f95') in 0.130249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 10 - SILVER - BIG.PNG
+  artifactKey: Guid(ca6bea46b2872734596775c66f545f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 10 - SILVER - BIG.PNG using Guid(ca6bea46b2872734596775c66f545f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbbbb274e08d61eb72ec0492f315dbca') in 0.250269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/RPG Button 7/PNG/Violet/Normal.png
+  artifactKey: Guid(d745b0a4a5a0c43458b65a7603281295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Button 7/PNG/Violet/Normal.png using Guid(d745b0a4a5a0c43458b65a7603281295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6588db756e7e04f8abac35f498379cc') in 0.276344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 5 - AZURE - small.PNG
+  artifactKey: Guid(1951b6e71ba5bcf42915a6e6e216e4a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 5 - AZURE - small.PNG using Guid(1951b6e71ba5bcf42915a6e6e216e4a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f536b8b5a93fa7a1736c5536d0eb249') in 0.106831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Animations/GroundAnimator.cs
+  artifactKey: Guid(5f0377110da02df4fb1e584116085395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Animations/GroundAnimator.cs using Guid(5f0377110da02df4fb1e584116085395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34a6ca82dfa22175bf3a1d29a5f6eada') in 0.039031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_04_D.TGA
+  artifactKey: Guid(992f8426259e8f64985d1e26628e4998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Texture/T_Rock_04_D.TGA using Guid(992f8426259e8f64985d1e26628e4998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d24959badb09791539b3a574d3d1495') in 0.085529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 12 - MOSSY - small.PNG
+  artifactKey: Guid(46c205b4dfca76d45866fd882b236607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 12 - MOSSY - small.PNG using Guid(46c205b4dfca76d45866fd882b236607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f28ff0ebbac460589650d46404b620b') in 0.078198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 7 - MOSSY - small.PNG
+  artifactKey: Guid(fc7e81b1fb158de4eb6acf070ad56815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - MOSSY -/Rock Pile 7 - MOSSY - small.PNG using Guid(fc7e81b1fb158de4eb6acf070ad56815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ffce56fe6f6d2746c33511842b275bb') in 0.100108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Scripts/Ground.cs
+  artifactKey: Guid(3584a8d2eb3e3fc41bb2229d2c9a2820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Scripts/Ground.cs using Guid(3584a8d2eb3e3fc41bb2229d2c9a2820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26a0d06e04531db0023930b8afd82ce6') in 0.033282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 4 - SILVER - BIG.PNG
+  artifactKey: Guid(be327cab18176e445af06877f3b4f9a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - SILVER -/Rock Pile 4 - SILVER - BIG.PNG using Guid(be327cab18176e445af06877f3b4f9a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b9df8ca83fd187f8f27ea271c220fa0') in 0.170212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Scenes/Level1/Level1 game.unity
+  artifactKey: Guid(17a840c6083639b43984a99cd563dcad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Level1 game.unity using Guid(17a840c6083639b43984a99cd563dcad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45e3069e61b9c2eb038217fa15ab8703') in 0.063319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 11 - WHITE - BIG.PNG
+  artifactKey: Guid(0a57ba8850e799c4d8f7f1eca7dc5b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 11 - WHITE - BIG.PNG using Guid(0a57ba8850e799c4d8f7f1eca7dc5b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbbd372d463b28a326e7ca7ff6a1eed3') in 0.094331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 5 - AZURE - BIG.PNG
+  artifactKey: Guid(8b5290cf147851641b4800c178906508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Prefabs/Rock Pile 5 - AZURE - BIG.PNG using Guid(8b5290cf147851641b4800c178906508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e65352dad873f9dedcc909762ef37a0b') in 0.061754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 11 - BEIGE - BIG.PNG
+  artifactKey: Guid(e96a5c7f3e8a31646aa5132a0b697c7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 11 - BEIGE - BIG.PNG using Guid(e96a5c7f3e8a31646aa5132a0b697c7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '116a346a03aa5c2b498f1770b7082f88') in 0.089593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 1 - WHITE - BIG.PNG
+  artifactKey: Guid(571cb12dfd65ad14d902a108f101111f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - WHITE -/Rock Pile 1 - WHITE - BIG.PNG using Guid(571cb12dfd65ad14d902a108f101111f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45c3db9c9d55c905c9717bf7921627f0') in 0.078061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 7 - AZURE - BIG.PNG
+  artifactKey: Guid(4745acbeb2ab205478b10e59ea53f3d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 7 - AZURE - BIG.PNG using Guid(4745acbeb2ab205478b10e59ea53f3d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d74158c50a86041eba1f7811f323abe') in 0.085936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Level1/Mini Game2/Sprites/Cactus_Large_Single.png
+  artifactKey: Guid(acaa1b038bb1b5840b1700113f3ba85f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1/Mini Game2/Sprites/Cactus_Large_Single.png using Guid(acaa1b038bb1b5840b1700113f3ba85f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0204204adc52978e9212520a4b7583df') in 0.077133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 8 - ORANGE - BIG.PNG
+  artifactKey: Guid(a41224b168385e24682b404f4435a73d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 8 - ORANGE - BIG.PNG using Guid(a41224b168385e24682b404f4435a73d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6cedb9aef75a87b58d49ac7f361462e') in 0.098349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 12 - AZURE - small.PNG
+  artifactKey: Guid(6e0592d572525e64da50734ecf1b63ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - AZURE -/Rock Pile 12 - AZURE - small.PNG using Guid(6e0592d572525e64da50734ecf1b63ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c8182d82f07f24d6148b3fc1724e522') in 0.082911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 3 - ORANGE - BIG.PNG
+  artifactKey: Guid(c1fcb3d94dbe3554eb446bceda1dbd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - ORANGE -/Rock Pile 3 - ORANGE - BIG.PNG using Guid(c1fcb3d94dbe3554eb446bceda1dbd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd0e1c913d76e5882bb8ddec6a13569d') in 0.136876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 15 - BEIGE - small.PNG
+  artifactKey: Guid(2a3c667950bd3584c9385d91d58b1c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/karsiori/Sprites/Pixel Art Rock Pile Pack/Rock Pile - BEIGE -/Rock Pile 15 - BEIGE - small.PNG using Guid(2a3c667950bd3584c9385d91d58b1c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad5a9ed0d1d31338f4dafa1cedcc5f1d') in 0.099328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_05.prefab
+  artifactKey: Guid(5d10ae558efe6a64d96e5b4d02ec6792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Rock Package/Prefabs/Rock_05.prefab using Guid(5d10ae558efe6a64d96e5b4d02ec6792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fc6a55fc02269abd82b550c49f48933') in 0.056902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.707 seconds
+Refreshing native plugins compatible for Editor in 51.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.811 seconds
+Domain Reload Profiling: 10528ms
+	BeginReloadAssembly (1720ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (326ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (581ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (2769ms)
+		LoadAssemblies (2751ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (526ms)
+			TypeCache.Refresh (412ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (96ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (5812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 8.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (220.0 KB). Loaded Objects now: 3748.
+Memory consumption went from 151.0 MB to 150.8 MB.
+Total: 31.577800 ms (FindLiveObjects: 1.105700 ms CreateObjectMapping: 0.477500 ms MarkObjects: 28.436900 ms  DeleteObjects: 1.298000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 35.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (200.3 KB). Loaded Objects now: 3748.
+Memory consumption went from 101.4 MB to 101.2 MB.
+Total: 689.056900 ms (FindLiveObjects: 12.735700 ms CreateObjectMapping: 0.197000 ms MarkObjects: 675.396000 ms  DeleteObjects: 0.724500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (200.3 KB). Loaded Objects now: 3748.
+Memory consumption went from 101.0 MB to 100.8 MB.
+Total: 162.363700 ms (FindLiveObjects: 2.313800 ms CreateObjectMapping: 0.225200 ms MarkObjects: 158.624800 ms  DeleteObjects: 1.173500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  7.265 seconds
+Refreshing native plugins compatible for Editor in 11.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 46.161 seconds
+Domain Reload Profiling: 53445ms
+	BeginReloadAssembly (3968ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (156ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (2218ms)
+	RebuildCommonClasses (136ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (133ms)
+	LoadAllAssembliesAndSetupDomain (2996ms)
+		LoadAssemblies (4215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (46163ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (950ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (694ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 18.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (219.8 KB). Loaded Objects now: 3752.
+Memory consumption went from 152.6 MB to 152.4 MB.
+Total: 13.825300 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.210200 ms MarkObjects: 13.010200 ms  DeleteObjects: 0.251500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 11.955 seconds
+Refreshing native plugins compatible for Editor in 48.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 13.363 seconds
+Domain Reload Profiling: 25346ms
+	BeginReloadAssembly (4282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (259ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (1980ms)
+	RebuildCommonClasses (352ms)
+	RebuildNativeTypeToScriptingClass (115ms)
+	initialDomainReloadingComplete (470ms)
+	LoadAllAssembliesAndSetupDomain (6758ms)
+		LoadAssemblies (8040ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (178ms)
+	FinalizeReload (13369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (222ms)
+			SetLoadedEditorAssemblies (50ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (625ms)
+			ProcessInitializeOnLoadAttributes (5315ms)
+			ProcessInitializeOnLoadMethodAttributes (389ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (6ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (84ms)
+Refreshing native plugins compatible for Editor in 49.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (219.8 KB). Loaded Objects now: 3756.
+Memory consumption went from 154.5 MB to 154.3 MB.
+Total: 46.585800 ms (FindLiveObjects: 1.670800 ms CreateObjectMapping: 1.326800 ms MarkObjects: 41.190500 ms  DeleteObjects: 2.377900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
